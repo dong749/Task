@@ -12,6 +12,5 @@ def transform_into_numbers(list_numbers):
     return int(temp_string_number)
 
 
-list_numbers = []
-result = transform_into_numbers(list_numbers)
-print(result)
+if __name__ == '__main__':
+    print(transform_into_numbers([8, 3, 5, 1]))
